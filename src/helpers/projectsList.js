@@ -16,6 +16,9 @@ import project05Big from "./../img/projects/05-big.jpg";
 import project06 from "./../img/projects/06.jpg";
 import project06Big from "./../img/projects/06-big.jpg";
 
+import project07 from "./../img/projects/07.jpg";
+import project07Big from "./../img/projects/07-big.jpg";
+
 const projects = [
     {
         title: 'RSS-агрегатор',
@@ -54,10 +57,17 @@ const projects = [
     },
     {
         title: 'BEM markup',
-        skills: 'HTML, CSS, MEM',
+        skills: 'HTML, CSS, BEM',
         img: project06,
         imgBig: project06Big,
         gitHubLink: 'https://daevv.github.io/Dishes-cite-markup/',
+    },
+    {
+        title: 'React portfolio',
+        skills: 'Портфолио разработчика, разработанное с использованием фреймворка React',
+        img: project07,
+        imgBig: project07Big,
+        gitHubLink: 'https://github.com/daevv/Frontend-portfolio',
     },
 ];
 
